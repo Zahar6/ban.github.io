@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #c911c9, #7bf30b);
+    color: #fff;
+    font-size: 20px;
+}
+
+main{
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+    background: linear-gradient(to right, #16bb97, #eb6315);
+    min-height: 100vh;
+    text-align: center;
+}
+
+.box{
+    padding: 10px;
+    border: 2px dotted #fff;
+    margin-top: 10px;
+}
+
+.box1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.box2{
+    font-family: 'Playfair Display', serif;
+}
+
+.box3{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box4{
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.box5{
+    font-family: 'Inconsolata', monospace;
+}
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.main-rect{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rect{
+    width: 30%;
+    border: 2px solid #fff;
+    box-shadow: 0 20px 6px -6px;
+    margin-bottom: 400px;
+    padding: 15px;
+}
+
+img{
+    width: 200px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
